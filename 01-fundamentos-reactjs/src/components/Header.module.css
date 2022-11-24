@@ -1,4 +1,20 @@
 .header {
-    background: #333;
-    height: 85px;
+  display: flex;
+  justify-content: center;
+  background: var(--gray-800);
+  height: 80px;
+  padding: 1.15rem 0;
+}
+
+.header strong,
+.header img {
+  margin: auto 5px;
+}
+
+.header img {
+  height: 2rem;
+}
+
+.header strong {
+  font-size: 2rem;
 }
