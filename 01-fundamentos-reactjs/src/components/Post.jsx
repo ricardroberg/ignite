@@ -1,8 +1,9 @@
+import React from "react";
 import { Comment } from "./Comment";
 import styles from "./Post.module.css";
 
 export function Post({ author, content }) {
-  const [first, setfirst] = useState(second)
+  const [first, setfirst] = useState('')
   return (
     <article className={styles.post}>
       <header>
@@ -54,8 +55,8 @@ export function Post({ author, content }) {
         <Comment />
         <Comment />
         <Comment />
-        <Sidebar/>
-      </div>
+        <Header/>
+                </div>
     </article>
   );
 }

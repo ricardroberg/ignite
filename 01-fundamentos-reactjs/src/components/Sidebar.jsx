@@ -3,6 +3,7 @@ import { PencilLine } from "phosphor-react";
 import styles from "./Sidebar.module.css";
 
 export function Sidebar() {
+  const [test, setTest] = useState('')
   return (
     <aside className={styles.sidebar}>
       <img
