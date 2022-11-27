@@ -1,17 +1,13 @@
+import { Avatar } from "./Avatar";
 import { Comment } from "./Comment";
 import styles from "./Post.module.css";
 
 export function Post({ author, content }) {
-  const [first, setfirst] = useState(second)
   return (
     <article className={styles.post}>
       <header>
         <div className={styles.author}>
-          <img
-            className={styles.avatar}
-            src="https://github.com/ricardroberg.png"
-            alt="user avatar/picture"
-          />
+          <Avatar src="https://github.com/maykbrito.png" />
           <div className={styles.authorInfo}>
             <strong>Ricard Roberg</strong>
             <span>Web Dev Intern</span>
@@ -54,7 +50,6 @@ export function Post({ author, content }) {
         <Comment />
         <Comment />
         <Comment />
-        <Sidebar/>
       </div>
     </article>
   );
