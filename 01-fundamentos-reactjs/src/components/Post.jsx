@@ -6,6 +6,7 @@ import { Comment } from "./Comment";
 
 import styles from "./Post.module.css";
 
+
 const comments = [1, 2, 3, 4, 5, 6];
 
 export function Post({ id, author, content, publishedAt }) {

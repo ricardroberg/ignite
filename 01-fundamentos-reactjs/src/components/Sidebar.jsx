@@ -6,6 +6,7 @@ import styles from "./Sidebar.module.css";
 import { Avatar } from "./Avatar";
 
 export function Sidebar() {
+  const [test, setTest] = useState('')
   return (
     <aside className={styles.sidebar}>
       <img
